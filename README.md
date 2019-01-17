@@ -9,3 +9,6 @@
 
 ## ACM
 - [LeetCode(力扣)答案解析（一）](https://github.com/Checkson/blog/issues/2)
+
+## 骚操作
+- [Cornerstone如何全选Missing文件?](https://github.com/Checkson/blog/issues/4)
