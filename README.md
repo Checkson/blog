@@ -12,3 +12,4 @@
 
 ## 骚操作
 - [Cornerstone如何全选Missing文件?](https://github.com/Checkson/blog/issues/4)
+- [自己如何去实现call、apply、bind函数?](https://github.com/Checkson/blog/issues/5)
