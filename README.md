@@ -16,4 +16,5 @@
 - [自己如何去实现call、apply、bind函数?](https://github.com/Checkson/blog/issues/5)
 
 ## 骚概念
-- 待开拓...
+- [彻底弄懂JavaScript中的原型链](https://github.com/Checkson/blog/issues/7)
+- [函数柯里化](https://github.com/Checkson/blog/issues/8)
