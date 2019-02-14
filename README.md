@@ -20,3 +20,4 @@
 ## 骚概念
 - [彻底弄懂JavaScript中的原型链](https://github.com/Checkson/blog/issues/7)
 - [函数柯里化为何物?](https://github.com/Checkson/blog/issues/8)
+- [为什么我只用===而不用==呢？](https://github.com/Checkson/blog/issues/11)
