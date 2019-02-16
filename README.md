@@ -9,6 +9,7 @@
 ## 算法与数据结构之美
 
 - [前言](https://github.com/Checkson/blog/issues/3)
+- [JavaScript 数组](https://github.com/Checkson/blog/issues/13)
 
 ## ACM
 
