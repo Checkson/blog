@@ -10,6 +10,7 @@
 
 - [前言](https://github.com/Checkson/blog/issues/3)
 - [JavaScript 数组](https://github.com/Checkson/blog/issues/13)
+- [JavaScript 列表](https://github.com/Checkson/blog/issues/14)
 
 ## ACM
 
