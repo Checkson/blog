@@ -1,8 +1,9 @@
 // 列表构造函数
 function List () {
-    this.size = 0;
+    var args = [].slice.call(arguments);
+    this.size = args.length;
     this.pos = -1;
-    this.dataList = [];
+    this.dataList = args;
 }
 
 // 给列表添加元素
@@ -54,14 +55,14 @@ List.prototype.insert = function (el, pos) {
 // 清空列表中所有的元素
 List.prototype.clear = function () {
     delete this.dataList;
+    this.dataList = [];
     this.size = 0;
     this.pos = -1;
-    this.dataList = [];
 }
 
 // 判断给定的值是否在列表中
 List.prototype.contains = function (el) {
-    for (var i = 0, len = dataList.length; i < len; i++) {
+    for (var i = 0, len = this.dataList.length; i < len; i++) {
         if (this.dataList[i] === el) {
             return true;
         }
@@ -79,13 +80,13 @@ List.prototype.end = function () {
 }
 
 List.prototype.prev = function () {
-    if (this.pos > 0) {
+    if (this.pos > -1) {
         this.pos--;
     }
 }
 
 List.prototype.next = function () {
-    if (this.pos < this.size - 1) {
+    if (this.pos < this.size) {
         this.pos++;
     }
 }
@@ -99,5 +100,10 @@ List.prototype.moveTo= function (pos) {
 }
 
 List.prototype.getElement = function () {
-    return this.dataList[this.pos];
+    if (this.pos > -1 && this.pos < this.size) {
+        return this.dataList[this.pos];
+    } else {
+        console.warning('当前列表位置越界，请调整指针');
+        return null;
+    }
 }
