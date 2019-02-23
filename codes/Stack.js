@@ -18,3 +18,15 @@ Stack.prototype.pop = function () {
 Stack.prototype.peek = function () {
     return this.dataList[this.top];
 }
+
+// 去除栈中所有元素
+Stack.prototype.clear = function () {
+    delete this.dataList;
+    this.dataList = [];
+    this.top = -1;
+}
+
+// 获取栈中元素个数
+Stack.prototype.length = function () {
+    return this.top + 1;
+}
