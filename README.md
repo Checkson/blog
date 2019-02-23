@@ -11,6 +11,7 @@
 - [前言](https://github.com/Checkson/blog/issues/3)
 - [JavaScript 数组](https://github.com/Checkson/blog/issues/13)
 - [JavaScript 列表](https://github.com/Checkson/blog/issues/14)
+- [JavaScript 栈](https://github.com/Checkson/blog/issues/17)
 
 ## ACM
 
@@ -25,6 +26,7 @@
 - [Cornerstone如何全选Missing文件?](https://github.com/Checkson/blog/issues/4)
 - [自己如何去实现call、apply、bind函数?](https://github.com/Checkson/blog/issues/5)
 - [JS怎么准确判断数据类型？](https://github.com/Checkson/blog/issues/10)
+- [HikariObfuscator操作手册](https://github.com/Checkson/blog/issues/16)
 
 ## 骚概念
 
