@@ -27,6 +27,7 @@ Queue.prototype.length = function () {
 // 清除队列种所有元素
 Queue.prototype.clear = function () {
     delete this.dataList;
+    this.dataList = [];
 }
 
 // 将队列转换为字符串
