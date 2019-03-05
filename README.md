@@ -31,6 +31,7 @@
 - [自己如何去实现call、apply、bind函数?](https://github.com/Checkson/blog/issues/5)
 - [JS怎么准确判断数据类型？](https://github.com/Checkson/blog/issues/10)
 - [HikariObfuscator操作手册](https://github.com/Checkson/blog/issues/16)
+- [动态插入脚本和样式](https://github.com/Checkson/blog/issues/22)
 
 ## 骚概念
 
