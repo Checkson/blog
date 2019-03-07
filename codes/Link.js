@@ -1,10 +1,4 @@
 // 构造函数
-function Node (el) {
-    this.el = el;
-    this.next = null;
-}
-
-// 构造函数
 function Link () {
     this.head = new Node('head');
 }
@@ -28,9 +22,9 @@ Link.prototype.find = function (el) {
 }
 
 // 插入一个节点
-Link.prototype.insert = function (newEl, el) {
+Link.prototype.insert = function (newEl, oldEl) {
     var newNode = new Node(newEl);
-    var findNode = this.find(el);
+    var findNode = this.find(oldEl);
     if (findNode) {
         newNode.next = findNode.next;
         findNode.next = newNode;
