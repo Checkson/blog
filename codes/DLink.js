@@ -28,10 +28,15 @@ DLink.prototype.find = function (el) {
 DLink.prototype.insert = function (newEl, oldEl) {
     var newNode = new DNode(newEl);
     var currNode = this.find(oldEl);
-    newNode.next = currNode.next;
-    newNode.prev = currNode;
-    currNode.next = newNode;
+    if (currNode) {
+        newNode.next = currNode.next;
+        newNode.prev = currNode;
+        currNode.next = newNode;
+    } else {
+        throw new Error('未找到指定要插入节点位置对应的值！')
+    }
 }
+   
 
 // 顺序展示链表节点
 DLink.prototype.display = function () {
