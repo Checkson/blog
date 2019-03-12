@@ -14,6 +14,7 @@
 - [JavaScript 栈](https://github.com/Checkson/blog/issues/17)
 - [JavaScript 队列](https://github.com/Checkson/blog/issues/18)
 - [JavaScript 链表](https://github.com/Checkson/blog/issues/20)
+- [JavaScript 字典](https://github.com/Checkson/blog/issues/24)
 
 ## ACM
 
