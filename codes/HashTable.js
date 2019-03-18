@@ -24,9 +24,14 @@ HashTable.prototype.betterHash = function (data) {
 }
 
 // 向哈希表中添加新的元素
-HashTable.prototype.put = function (data) {
-    var pos = this.simpleHash(data);
+HashTable.prototype.put = function (key, data) {
+    var pos = this.betterHash(key);
     this.table[pos] = data;
+}
+
+// 根据传入的key值来获取哈希表中相应的值
+HashTable.prototype.get = function (key) {
+    return this.table[this.betterHash(key)];
 }
 
 // 显示散列表中的元素
