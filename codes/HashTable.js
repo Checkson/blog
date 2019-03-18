@@ -13,7 +13,7 @@ HashTable.prototype.simpleHash = function (data) {
 }
 
 // 更好哈希函数
-HashTable.proptotype.betterHash = function (data) {
+HashTable.prototype.betterHash = function (data) {
     const H = 37;
     var total = 0;
     for (var i = 0, len = data.length; i < len; i++) {
