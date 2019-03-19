@@ -28,6 +28,7 @@
 - [LeetCode(力扣)答案解析（六）](https://github.com/Checkson/blog/issues/19)
 - [LeetCode(力扣)答案解析（七）](https://github.com/Checkson/blog/issues/21)
 - [LeetCode(力扣)答案解析（八）](https://github.com/Checkson/blog/issues/23)
+- [LeetCode(力扣)答案解析（九）](https://github.com/Checkson/blog/issues/27)
 
 ## 骚操作
 
