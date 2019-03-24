@@ -7,7 +7,7 @@ function Set (arr) {
     if (arr && arr.length) {
         var _this = this;
         arr.forEach(function (item) {
-            _this.dataStore.push(item);
+            _this.add(item);
         });
     }
 }
@@ -90,3 +90,14 @@ Set.prototype.subSet = function (set) {
     });
     return true;
 }
+
+// 求集合的补集
+Set.prototype.difference = function (set) {
+    var tempSet = new Set();
+    this.dataStore.forEach(function (item) {
+        if (!set.has(item)) {
+            tempSet.add(item);
+        }
+    });
+    return tempSet;
+};
