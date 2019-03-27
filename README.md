@@ -34,10 +34,8 @@
 
 ## 骚操作
 
-- [Cornerstone如何全选Missing文件?](https://github.com/Checkson/blog/issues/4)
 - [自己如何去实现call、apply、bind函数?](https://github.com/Checkson/blog/issues/5)
 - [JS怎么准确判断数据类型？](https://github.com/Checkson/blog/issues/10)
-- [HikariObfuscator操作手册](https://github.com/Checkson/blog/issues/16)
 - [动态插入脚本和样式](https://github.com/Checkson/blog/issues/22)
 
 ## 骚概念
@@ -45,3 +43,8 @@
 - [彻底弄懂JavaScript中的原型链](https://github.com/Checkson/blog/issues/7)
 - [函数柯里化为何物?](https://github.com/Checkson/blog/issues/8)
 - [为什么我只用===而不用==呢？](https://github.com/Checkson/blog/issues/11)
+
+## 杂文
+
+- [Cornerstone如何全选Missing文件?](https://github.com/Checkson/blog/issues/4)
+- [HikariObfuscator操作手册](https://github.com/Checkson/blog/issues/16)
