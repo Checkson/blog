@@ -81,20 +81,57 @@ BST.prototype.getMax = function () {
     return current.data;
 }
 
-// 判断某个值是否在二叉查找树中
-BST.prototype.contains = function (data) {
+// 查找二叉查找树中给定的值
+BST.prototype.find = function (data) {
     var current = this.root;
     while (current) {
         if (current.data === data) {
-            return true;
+            return current;
         } else if (current.data > data) {
             current = current.left;
         } else {
             current = current.right;
         }
     }
-    return false;
+    return null;
 }
 
 // 删除二叉树上给定的节点
-// pass
+BST.prototype.remove = function (data) {
+    this.removeNode(this.root, data);
+}
+
+BST.prototype.removeNode = function (node, data) {
+    if (!node) {
+        return null;
+    }
+    if (data === node.data) {
+        if (!node.left && !node.right) {
+            return null;
+        } else if (!node.left) {
+            return node.right;
+        } else if (!node.right) {
+            return node.left;
+        } else {
+            var tempNode = this.getSmallestNode(node.right);
+            node.data = tempNode.data;
+            node.right = this.removeNode(node.right, tempNode.data);
+        }
+    } else if (data < node.data) {
+        node.left = this.removeNode(node.left, data);
+    } else {
+        node.right = this.removeNode(node.right, data);
+    }
+    return node;
+}
+
+// 获取最小值的节点
+BST.prototype.getSmallestNode = function (node) {
+    if (!node) {
+        return null;
+    }
+    while (node.left) {
+        node = node.left;
+    }
+    return node;
+}
