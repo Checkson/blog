@@ -19,6 +19,7 @@
 - [JavaScript 集合](https://github.com/Checkson/blog/issues/26)
 - [JavaScript 二叉树](https://github.com/Checkson/blog/issues/28)
 - [JavaScript 图](https://github.com/Checkson/blog/issues/30)
+- [JavaScript 排序算法](https://github.com/Checkson/blog/issues/31)
 
 ## ACM
 
