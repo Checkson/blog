@@ -3,7 +3,7 @@
  * @param {array}  arr   待排序数组
  * @param {string} type  asc / desc
  */
-function Insert (arr, type) {
+function insert (arr, type) {
     // 记录数组长度
     var len = arr.length;
     // 外循环记录已排序最后下标
