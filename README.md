@@ -20,6 +20,7 @@
 - [JavaScript 二叉树](https://github.com/Checkson/blog/issues/28)
 - [JavaScript 图](https://github.com/Checkson/blog/issues/30)
 - [JavaScript 排序算法](https://github.com/Checkson/blog/issues/31)
+- [JavaScript 检索算法](https://github.com/Checkson/blog/issues/33)
 
 ## ACM
 
@@ -36,7 +37,7 @@
 
 ## 骚操作
 
-- [自己如何去实现call、apply、bind函数?](https://github.com/Checkson/blog/issues/5)
+- [如何去实现call、apply、bind函数?](https://github.com/Checkson/blog/issues/5)
 - [JS怎么准确判断数据类型？](https://github.com/Checkson/blog/issues/10)
 - [动态插入脚本和样式](https://github.com/Checkson/blog/issues/22)
 
