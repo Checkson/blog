@@ -3,7 +3,7 @@
  * @param {array}  arr   待排序数组
  * @param {string} type  asc / desc
  */
-function quick_Iteration (arr, type) {
+function quick_iteration (arr, type) {
     // 记录数组长度
     var len = arr.length;
     // 栈、栈顶指针
@@ -59,9 +59,3 @@ function swap (arr, i, j) {
     arr[i] = arr[j];
     arr[j] = temp;
 }
-
-var arr = [3, 4, 8, 0, 9, 10, 2, 3, 5, 6];
-
-quick_Iteration(arr, 'desc');
-
-console.log(arr);
