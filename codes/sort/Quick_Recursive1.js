@@ -1,9 +1,9 @@
 /**
- * 快速排序
+ * 快速排序 - 递归实现1
  * @param {array}  arr   待排序数组
  * @param {string} type  asc / desc
  */
-function quick (arr, type) {
+function quick_recursive1 (arr, type) {
     // 记录数组长度
     var len = arr.length;
     // 若果数组长度为空
@@ -28,5 +28,5 @@ function quick (arr, type) {
             }
         }
     }
-    return quick(left, type).concat(pivot, quick(right, type));
+    return quick_recursive1(left, type).concat(pivot, quick_recursive1(right, type));
 }
