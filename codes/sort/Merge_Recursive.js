@@ -5,7 +5,7 @@
  */
 function merge_recursive (arr, type) {
     // 记录数组长度
-    let len = arr.length;
+    var len = arr.length;
     // 归并排序
     merge_sort(arr, 0, len - 1, type);
 }
@@ -19,7 +19,7 @@ function merge_recursive (arr, type) {
  */
 function merge_sort(arr, low, high, type) {
     if (low < high) {
-        let mid = Math.floor((low + high) / 2);
+        var mid = Math.floor((low + high) / 2);
         merge_sort(arr, low, mid, type);
         merge_sort(arr, mid + 1, high, type);
         merge(arr, low, mid, high, type);
@@ -35,10 +35,10 @@ function merge_sort(arr, low, high, type) {
  * @param {string} type 排序类型
  */
 function merge (arr, low, mid, high, type) {
-    let left = low,
+    var left = low,
         right = mid + 1,
         t = 0;
-    let tempArr = [];
+    var tempArr = [];
     while (left <= mid && right <= high) {
         if (!type || type === 'asc') { //  顺序排序
             if (arr[left] < arr[right]) {
