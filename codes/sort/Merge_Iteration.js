@@ -74,10 +74,3 @@ function merge (arr, low, mid, high, type) {
         arr[high--] = tempArr[--t];
     }
 }
-
-
-var arr = [3, 1, 4];
-
-merge_iteration(arr);
-
-console.log(arr);
