@@ -22,6 +22,7 @@
 - [JavaScript 排序算法](https://github.com/Checkson/blog/issues/31)
 - [JavaScript 检索算法](https://github.com/Checkson/blog/issues/33)
 - [JavaScript 动态规划&贪心算法](https://github.com/Checkson/blog/issues/34)
+- [JavaScript 字符串匹配算法](https://github.com/Checkson/blog/issues/35)
 
 ## ACM
 
