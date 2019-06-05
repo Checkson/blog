@@ -5,6 +5,7 @@
 ## ES6之美
 
 - [初识ES6](https://github.com/Checkson/blog/issues/1)
+- [基础概述](https://github.com/Checkson/blog/issues/36)
 
 ## 算法与数据结构之美
 
