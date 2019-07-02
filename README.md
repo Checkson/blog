@@ -7,6 +7,7 @@
 - [ES6 初识](https://github.com/Checkson/blog/issues/1)
 - [ES6 基础概述](https://github.com/Checkson/blog/issues/36)
 - [ES6 对象代理](https://github.com/Checkson/blog/issues/37)
+- [ES6 遍历器](https://github.com/Checkson/blog/issues/38)
 
 ## 算法与数据结构之美
 
