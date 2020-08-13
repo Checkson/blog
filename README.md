@@ -2,7 +2,7 @@
 
 > 希望绝大部分人在我这里能看到一些不同的东西！
 
-## ES6之美
+## ES6之美（停更）
 
 - [ES6 初识](https://github.com/Checkson/blog/issues/1)
 - [ES6 基础概述](https://github.com/Checkson/blog/issues/36)
@@ -59,3 +59,4 @@
 
 - [Cornerstone如何全选Missing文件?](https://github.com/Checkson/blog/issues/4)
 - [HikariObfuscator操作手册](https://github.com/Checkson/blog/issues/16)
+- [Web前端退役篇](https://github.com/Checkson/blog/issues/41)
