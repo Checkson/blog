@@ -47,6 +47,7 @@
 - [JS怎么准确判断数据类型？](https://github.com/Checkson/blog/issues/10)
 - [动态插入脚本和样式](https://github.com/Checkson/blog/issues/22)
 - [基于Node.js的优先异步队列](https://github.com/Checkson/blog/issues/40)
+- [基于Node.js异步优先队列2.0来袭](https://github.com/Checkson/blog/issues/42)
 
 ## 骚概念
 
