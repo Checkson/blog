@@ -63,4 +63,4 @@
 - [Web前端退役篇](https://github.com/Checkson/blog/issues/41)
 
 ## 游戏开发相关
-- [Unity游戏工程支持Android 15+的Page Size 16K](https://github.com/Checkson/blog/issues/44)
+- [Unity游戏工程支持Android 15+的16KB页面大小](https://github.com/Checkson/blog/issues/44)
